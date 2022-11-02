@@ -8,13 +8,13 @@ const DisplayBoard = () => {
   myHeaders.append("x-access-token", "goldapi-ivftl9zco13z-io");
   myHeaders.append("Content-Type", "application/json");
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     getRates();
-  //   }, 60000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      getRates();
+    }, 60000);
 
-  //   return () => clearInterval(interval);
-  // }, []);
+    return () => clearInterval(interval);
+  }, []);
 
   const getRates = async () => {
     try {

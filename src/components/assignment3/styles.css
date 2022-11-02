@@ -1,0 +1,24 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: goldenrod;
+  }
+  .off {
+    color: #ccc;
+  }
+
+  h1{
+     font-size: xx-large;
+  }
+
+  .star{
+    font-size: xx-large;
+  }
+
+  .star-rating {
+    text-align: center;
+  }
